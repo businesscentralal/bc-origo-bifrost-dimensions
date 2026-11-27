@@ -12,6 +12,8 @@ using Origo.Bifrost;
 codeunit 10076499 "Dim Setup Msg Mgt ori"
 {
     Access = Internal;
+    Permissions = tabledata Dimension = r,
+                  tabledata "Dim Correction Blocked Setup" = r;
 
     var
         BifrostSourceTok: Label 'bifrost', Locked = true;
@@ -55,7 +57,7 @@ codeunit 10076499 "Dim Setup Msg Mgt ori"
 
     /// <summary>Builds the response shared by Get and Set: the current values and the union of blocked dimensions.</summary>
     /// <returns>The response object.</returns>
-    procedure BuildSetupResponse() Response: JsonObject
+    procedure BuildSetupResponse() Result: JsonObject
     var
         Setup: Record "Dimension Corr. Setup ori";
         BlockedDim: Record "Dim. Corr. Blocked Dim. ori";
@@ -74,10 +76,10 @@ codeunit 10076499 "Dim Setup Msg Mgt ori"
             repeat
                 Blocked.Add(BlockedEntry(MicrosoftBlocked."Dimension Code", MicrosoftSourceTok));
             until MicrosoftBlocked.Next() = 0;
-        Response.Add('status', 'Success');
-        Response.Add(ThresholdKeyTok, Setup."Background Threshold");
-        Response.Add(RequireReasonKeyTok, Setup."Require Reason");
-        Response.Add(BlockedKeyTok, Blocked);
+        Result.Add('status', 'Success');
+        Result.Add(ThresholdKeyTok, Setup."Background Threshold");
+        Result.Add(RequireReasonKeyTok, Setup."Require Reason");
+        Result.Add(BlockedKeyTok, Blocked);
     end;
 
     local procedure BlockedEntry(DimensionCode: Code[20]; Source: Text) Entry: JsonObject
@@ -226,8 +228,13 @@ codeunit 10076499 "Dim Setup Msg Mgt ori"
         Token.WriteTo(Serialized);
         if (CopyStr(Serialized, 1, 1) = '"') or (Serialized in ['true', 'false']) then
             exit(false);
+        exit(TryReadDecimal(Token, Value));
+    end;
+
+    [TryFunction]
+    local procedure TryReadDecimal(Token: JsonToken; var Value: Decimal)
+    begin
         Value := Token.AsValue().AsDecimal();
-        exit(true);
     end;
 
     local procedure ReadBooleanToken(Token: JsonToken; var Value: Boolean): Boolean

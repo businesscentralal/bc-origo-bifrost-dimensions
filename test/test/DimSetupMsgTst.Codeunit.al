@@ -160,13 +160,14 @@ codeunit 98320 "Dim Setup Msg Tst ori"
         GetType: Interface "Msg Interface ori";
         SetType: Interface "Msg Interface ori";
         ReadCanRead: Boolean;
-        ReadCanReadMicrosoft: Boolean;
+        ReadReply: JsonObject;
         ReadCanWrite: Boolean;
         ReadGetEnabled: Boolean;
         ReadSetEnabled: Boolean;
         FullCanWrite: Boolean;
         FullCanWriteMicrosoft: Boolean;
         FullSetEnabled: Boolean;
+        SetupMessages: Codeunit "Dim Setup Msg Mgt ori";
     begin
         // [GIVEN] The two setup message types
         GetType := Enum::"Message Type ori"::"Dimensions.Setup.Get";
@@ -175,7 +176,7 @@ codeunit 98320 "Dim Setup Msg Tst ori"
         // [WHEN] Only the Read set is assigned, then only the Full set
         LowerPermissions.SetExactPermissionSet('BIFROST DIMRead ori');
         ReadCanRead := Setup.ReadPermission() and BlockedDim.ReadPermission();
-        ReadCanReadMicrosoft := MicrosoftBlocked.ReadPermission();
+        ReadReply := SetupMessages.BuildSetupResponse();
         ReadCanWrite := Setup.WritePermission() or BlockedDim.WritePermission();
         ReadGetEnabled := GetType.IsEnabled();
         ReadSetEnabled := SetType.IsEnabled();
@@ -185,9 +186,9 @@ codeunit 98320 "Dim Setup Msg Tst ori"
         FullSetEnabled := SetType.IsEnabled();
         LowerPermissions.SetOutsideO365Scope();
 
-        // [THEN] Read can read both lists and runs only Get; Full can also write this app's setup, never Microsoft's list
+        // [THEN] Read can read both lists through the management codeunit and runs only Get; Full can also write this app's setup, never Microsoft's list
         Assert.IsTrue(ReadCanRead, 'The Read set must read the setup and the Bifrost list.');
-        Assert.IsTrue(ReadCanReadMicrosoft, 'The Read set must read Microsoft''s blocked setup.');
+        AssertSuccess(ReadReply);
         Assert.IsFalse(ReadCanWrite, 'The Read set must not write the setup.');
         Assert.IsTrue(ReadGetEnabled, 'Dimensions.Setup.Get is enabled for the Read set.');
         Assert.IsFalse(ReadSetEnabled, 'Dimensions.Setup.Set is not enabled for the Read set.');
@@ -358,6 +359,8 @@ codeunit 98320 "Dim Setup Msg Tst ori"
         // [THEN] Each is refused with a typed error and nextStep, and nothing is saved
         AssertProblem(Invoke(Enum::"Message Type ori"::"Dimensions.Setup.Set", '{"backgroundThreshold":"500"}'), 'InvalidParameterFormat');
         AssertProblem(Invoke(Enum::"Message Type ori"::"Dimensions.Setup.Set", '{"backgroundThreshold":12.5}'), 'InvalidParameterFormat');
+        AssertProblem(Invoke(Enum::"Message Type ori"::"Dimensions.Setup.Set", '{"backgroundThreshold":1e40,"requireReason":false}'), 'InvalidParameterFormat');
+        AssertProblem(Invoke(Enum::"Message Type ori"::"Dimensions.Setup.Set", '{"backgroundThreshold":-1e40}'), 'InvalidParameterFormat');
         AssertProblem(Invoke(Enum::"Message Type ori"::"Dimensions.Setup.Set", '{"requireReason":"yes"}'), 'InvalidParameterFormat');
         AssertProblem(Invoke(Enum::"Message Type ori"::"Dimensions.Setup.Set", '{"blockedDimensions":"AREA"}'), 'InvalidParameterFormat');
         AssertProblem(Invoke(Enum::"Message Type ori"::"Dimensions.Setup.Set", '{"blockedDimensions":[1]}'), 'InvalidParameterFormat');
