@@ -1,0 +1,58 @@
+{
+  "id": "a28df59b-665a-4e29-a84b-8fa4de15eec1",
+  "name": "Bifrost Dimensions",
+  "publisher": "Origo",
+  "version": "28.0.0.0",
+  "brief": "Bifrost Dimensions - correct dimensions on posted entries and documents through message types",
+  "description": "Bifröst message types that find posted entries and documents by their dimensions, preview a dimension correction with validation, run it with a correction log, and undo it. No pages: assistants and integrations use the message types.",
+  "url": "https://www.origo.is/",
+  "help": "https://docs.bifrost.origo.is/en-us/dimensions/",
+  "privacyStatement": "https://docs.bifrost.origo.is/en-us/licensing/privacy/",
+  "EULA": "https://docs.bifrost.origo.is/en-us/licensing/eula/",
+  "applicationInsightsConnectionString": "InstrumentationKey=af411133-5e22-486f-b23a-081b79ed4168;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=c4476f32-5dfb-490a-8ad0-fb8ffad1c050",
+  "contextSensitiveHelpUrl": "https://docs.bifrost.origo.is/{0}/dimensions/",
+  "keyVaultUrls": [],
+  "supportedLocales": [
+    "en-US",
+    "is-IS"
+  ],
+  "logo": "assets/Logo250x250.png",
+  "dependencies": [
+    {
+      "id": "7505e808-6e52-4b96-a328-82573391297a",
+      "name": "Bifrost Foundation",
+      "publisher": "Origo",
+      "version": "28.0.16.0"
+    }
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "b5c614e9-7a4c-4a12-a568-57aeb3f9ee50",
+      "name": "Bifrost Dimensions - Tests",
+      "publisher": "Origo"
+    }
+  ],
+  "screenshots": [],
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 10076485,
+      "to": 10076534
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "target": "Cloud",
+  "features": [
+    "TranslationFile"
+  ],
+  "propagateDependencies": false,
+  "runtime": "17.0",
+  "suppressWarnings": [
+    "AS0081"
+  ]
+}
