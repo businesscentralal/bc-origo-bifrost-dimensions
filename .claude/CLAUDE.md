@@ -21,9 +21,13 @@ Tests: 98300-98399
 | Permission set | 10076488 | BIFROST DIMRead ori |
 | Permission set extension | 10076489 | Dimensions Full Role ori |
 | Permission set extension | 10076490 | Dimensions Read Role ori |
-| Enum extension | 10076491 | Dimensions Message Type ori |
+| Enum extension | 10076491 | Dimensions Message Type ori (value 10076492 Dimensions.Entries.Find) |
+| Enum | 10076492 | Dim. Correction Target ori (interface of the same name) |
+| Codeunit | 10076493 | Dim Target Registry ori |
+| Codeunit | 10076494 | Dimensions Find Impl ori |
 | Test codeunit | 98300 | Dimensions Scaffold Tst ori |
 | Test permission set | 98301 | Dim Setup Test ori |
+| Test codeunit | 98302 | Dim Entries Find Tst ori |
 
 Every new object is added to this table in the same PR.
 
