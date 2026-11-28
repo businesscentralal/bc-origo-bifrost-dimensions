@@ -157,6 +157,7 @@ codeunit 98320 "Dim Setup Msg Tst ori"
         BlockedDim: Record "Dim. Corr. Blocked Dim. ori";
         MicrosoftBlocked: Record "Dim Correction Blocked Setup";
         LowerPermissions: Codeunit "Library - Lower Permissions";
+        SetupMessages: Codeunit "Dim Setup Msg Mgt ori";
         GetType: Interface "Msg Interface ori";
         SetType: Interface "Msg Interface ori";
         ReadCanRead: Boolean;
@@ -167,7 +168,6 @@ codeunit 98320 "Dim Setup Msg Tst ori"
         FullCanWrite: Boolean;
         FullCanWriteMicrosoft: Boolean;
         FullSetEnabled: Boolean;
-        SetupMessages: Codeunit "Dim Setup Msg Mgt ori";
     begin
         // [GIVEN] The two setup message types
         GetType := Enum::"Message Type ori"::"Dimensions.Setup.Get";

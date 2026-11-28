@@ -5,6 +5,7 @@ All notable changes to Bifrost Dimensions are documented here.
 ## [Unreleased]
 
 ### Fixed
+- Ordered the permission-test variables in codeunit 98320 to remove CodeCop warning AA0021.
 - Setup messages read Microsoft dimension tables through scoped indirect permissions without extending foreign table grants. Threshold numbers outside the Decimal range return `InvalidParameterFormat` without saving changes.
 
 ### Added
