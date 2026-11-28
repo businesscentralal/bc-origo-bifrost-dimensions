@@ -19,4 +19,10 @@ enumextension 10076491 "Dimensions Message Type ori" extends "Message Type ori"
         Caption = 'Dimensions.Setup.Set', Locked = true;
         Implementation = "Msg Interface ori" = "Dim Setup Set Impl ori", "Msg Discovery ori" = "Dim Setup Set Impl ori", "Msg Contract ori" = "Dim Setup Set Impl ori";
     }
+    /// <summary>Finds posted ledger entries and posted documents by what they are and by their current dimensions.</summary>
+    value(10076492; "Dimensions.Entries.Find")
+    {
+        Caption = 'Dimensions.Entries.Find', Locked = true;
+        Implementation = "Msg Interface ori" = "Dimensions Find Impl ori", "Msg Discovery ori" = "Dimensions Find Impl ori", "Msg Contract ori" = "Dimensions Find Impl ori";
+    }
 }
