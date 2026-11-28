@@ -1,7 +1,7 @@
 namespace Origo.Bifrost.Dimensions;
 
 /// <summary>
-/// Full Bifrost Dimensions role. Includes the read role; message types add their write permissions here as they are built.
+/// Full Bifrost Dimensions role. Includes the read role; grants Dimensions.Setup.Set, which writes only this app's setup and blocked list.
 /// </summary>
 permissionset 10076487 "BIFROST DIMFull ori"
 {
@@ -9,4 +9,8 @@ permissionset 10076487 "BIFROST DIMFull ori"
     Access = Public;
     Caption = 'Bifrost Dimensions Full', MaxLength = 30, Comment = 'is-IS=Bifröst - víddir (fullt)';
     IncludedPermissionSets = "BIFROST DIMRead ori";
+    Permissions =
+        tabledata "Dimension Corr. Setup ori" = RIMD,
+        tabledata "Dim. Corr. Blocked Dim. ori" = RIMD,
+        codeunit "Dim Setup Set Impl ori" = X;
 }

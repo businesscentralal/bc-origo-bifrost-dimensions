@@ -21,11 +21,18 @@ Tests: 98300-98399
 | Permission set | 10076488 | BIFROST DIMRead ori |
 | Permission set extension | 10076489 | Dimensions Full Role ori |
 | Permission set extension | 10076490 | Dimensions Read Role ori |
-| Enum extension | 10076491 | Dimensions Message Type ori (value 10076492 Dimensions.Entries.Find) |
+| Table | 10076495 | Dimension Corr. Setup ori |
+| Table | 10076496 | Dim. Corr. Blocked Dim. ori |
+| Codeunit | 10076497 | Dim Setup Get Impl ori |
+| Codeunit | 10076498 | Dim Setup Set Impl ori |
+| Codeunit | 10076499 | Dim Setup Msg Mgt ori |
+| Enum value | 10076495-10076496 | Dimensions.Setup.Get, Dimensions.Setup.Set |
+| Enum extension | 10076491 | Dimensions Message Type ori (values 10076492 Dimensions.Entries.Find, 10076495-10076496 Dimensions.Setup.Get/Set) |
 | Enum | 10076492 | Dim. Correction Target ori (interface of the same name) |
 | Codeunit | 10076493 | Dim Target Registry ori |
 | Codeunit | 10076494 | Dimensions Find Impl ori |
 | Test codeunit | 98300 | Dimensions Scaffold Tst ori |
+| Test codeunit | 98320 | Dim Setup Msg Tst ori |
 | Test permission set | 98301 | Dim Setup Test ori |
 | Test codeunit | 98302 | Dim Entries Find Tst ori |
 

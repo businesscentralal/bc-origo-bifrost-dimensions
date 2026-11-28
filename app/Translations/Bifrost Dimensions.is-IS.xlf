@@ -3,6 +3,162 @@
   <file datatype="xml" source-language="en-US" target-language="is-IS" original="Bifrost Dimensions">
     <body>
       <group id="body">
+        <trans-unit id="Table 2485805626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Correction Blocked Dimension</source>
+          <target>Læst vídd í víddaleiðréttingu</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Læst vídd í víddaleiðréttingu</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dim. Corr. Blocked Dim. ori - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2485805626 - Field 2623957639 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a dimension that dimension corrections must not change.</source>
+          <target>Tilgreinir vídd sem víddaleiðréttingar mega ekki breyta.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Tilgreinir vídd sem víddaleiðréttingar mega ekki breyta.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dim. Corr. Blocked Dim. ori - Field Dimension Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2485805626 - Field 2623957639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Code</source>
+          <target>Víddarkóði</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Víddarkóði</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dim. Corr. Blocked Dim. ori - Field Dimension Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144629979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Correction Setup</source>
+          <target>Uppsetning víddaleiðréttinga</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Uppsetning víddaleiðréttinga</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dimension Corr. Setup ori - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144629979 - Field 3312512019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of rows above which a dimension correction runs in the background.</source>
+          <target>Tilgreinir fjölda lína sem víddaleiðrétting þarf að fara yfir til að keyra í bakgrunni.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Tilgreinir fjölda lína sem víddaleiðrétting þarf að fara yfir til að keyra í bakgrunni.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dimension Corr. Setup ori - Field Background Threshold - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4144629979 - Field 3312512019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Background Threshold</source>
+          <target>Mörk bakgrunnsvinnslu</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Mörk bakgrunnsvinnslu</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dimension Corr. Setup ori - Field Background Threshold - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144629979 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Aðallykill</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Aðallykill</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dimension Corr. Setup ori - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4144629979 - Field 922320683 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a dimension correction must state a reason.</source>
+          <target>Tilgreinir hvort víddaleiðrétting þurfi að tilgreina ástæðu.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Tilgreinir hvort víddaleiðrétting þurfi að tilgreina ástæðu.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dimension Corr. Setup ori - Field Require Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4144629979 - Field 922320683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Require Reason</source>
+          <target>Krefjast ástæðu</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Krefjast ástæðu</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Dimension Corr. Setup ori - Field Require Reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2226477007 - Method 1027590672 - NamedType 1290244428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>dimension correction setup, read dimension settings, blocked dimensions, background threshold, require reason</source>
+          <target>uppsetning víddaleiðréttinga, lesa víddastillingar, læstar víddir, mörk bakgrunnsvinnslu, krefjast ástæðu, víddir, leiðrétta víddir</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=uppsetning víddaleiðréttinga, lesa víddastillingar, læstar víddir, mörk bakgrunnsvinnslu, krefjast ástæðu, víddir, leiðrétta víddir</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Get Impl ori - Method GetKeywords - NamedType KeywordsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 813312858" size-unit="char" translate="yes" xml:space="preserve">
+          <source>blockedDimensions must be an array of dimension codes.</source>
+          <target>blockedDimensions verður að vera fylki af víddarkóðum.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=blockedDimensions verður að vera fylki af víddarkóðum.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType BlockedFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 608836354" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send blockedDimensions as an array of strings, for example ["AREA"], or [] to clear the Bifrost list.</source>
+          <target>Sendu blockedDimensions sem fylki af strengjum, til dæmis ["AREA"], eða [] til að hreinsa Bifröst-listann.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu blockedDimensions sem fylki af strengjum, til dæmis ["AREA"], eða [] til að hreinsa Bifröst-listann.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType BlockedFormatNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 191619206" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reads the dimension correction setup: background threshold, reason requirement and blocked dimensions.</source>
+          <target>Les uppsetningu víddaleiðréttinga: mörk bakgrunnsvinnslu, kröfu um ástæðu og læstar víddir.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Les uppsetningu víddaleiðréttinga: mörk bakgrunnsvinnslu, kröfu um ástæðu og læstar víddir.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType DescriptionGetLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 3379734002" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Changes the dimension correction setup: background threshold, reason requirement and the Bifrost blocked dimensions.</source>
+          <target>Breytir uppsetningu víddaleiðréttinga: mörkum bakgrunnsvinnslu, kröfu um ástæðu og læstum víddum Bifröst.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Breytir uppsetningu víddaleiðréttinga: mörkum bakgrunnsvinnslu, kröfu um ástæðu og læstum víddum Bifröst.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType DescriptionSetLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 3098806009" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Without a saved setup the defaults are returned: backgroundThreshold 500 and requireReason true. blockedDimensions lists this app's list with source "bifrost" and Microsoft's Dimension Correction blocked setup with source "microsoft"; a code blocked in both lists appears once for each source. Nothing is written.</source>
+          <target>Án vistaðrar uppsetningar eru sjálfgefin gildi skiluð: backgroundThreshold 500 og requireReason true. blockedDimensions sýnir lista þessa forrits með source "bifrost" og læstar víddir í víddaleiðréttingu Microsoft með source "microsoft"; kóði sem er læstur í báðum listum birtist einu sinni fyrir hvora uppsprettu. Engu er skrifað.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Án vistaðrar uppsetningar eru sjálfgefin gildi skiluð: backgroundThreshold 500 og requireReason true. blockedDimensions sýnir lista þessa forrits með source "bifrost" og læstar víddir í víddaleiðréttingu Microsoft með source "microsoft"; kóði sem er læstur í báðum listum birtist einu sinni fyrir hvora uppsprettu. Engu er skrifað.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType NotesGetLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 540432429" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only the values sent are changed. blockedDimensions replaces the whole Bifrost list; Microsoft's Dimension Correction blocked setup is never written. Every code is checked before anything is saved, so an unknown code changes nothing. Sending the same values again gives the same result. The response has the same shape as Dimensions.Setup.Get.</source>
+          <target>Aðeins gildunum sem eru send er breytt. blockedDimensions kemur í stað alls Bifröst-listans; læstum víddum í víddaleiðréttingu Microsoft er aldrei breytt. Allir kóðar eru prófaðir áður en nokkuð er vistað, svo óþekktur kóði breytir engu. Sömu gildi send aftur gefa sömu niðurstöðu. Svarið er á sama formi og í Dimensions.Setup.Get.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Aðeins gildunum sem eru send er breytt. blockedDimensions kemur í stað alls Bifröst-listans; læstum víddum í víddaleiðréttingu Microsoft er aldrei breytt. Allir kóðar eru prófaðir áður en nokkuð er vistað, svo óþekktur kóði breytir engu. Sömu gildi send aftur gefa sömu niðurstöðu. Svarið er á sama formi og í Dimensions.Setup.Get.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType NotesSetLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 2905185043" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send at least one of backgroundThreshold, requireReason or blockedDimensions.</source>
+          <target>Sendu að minnsta kosti eitt af backgroundThreshold, requireReason eða blockedDimensions.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu að minnsta kosti eitt af backgroundThreshold, requireReason eða blockedDimensions.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType NothingToSetErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 2395966059" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Dimensions.Setup.Get to read the current values, then send only the values to change.</source>
+          <target>Notaðu Dimensions.Setup.Get til að lesa núverandi gildi og sendu síðan aðeins gildin sem á að breyta.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Notaðu Dimensions.Setup.Get til að lesa núverandi gildi og sendu síðan aðeins gildin sem á að breyta.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType NothingToSetNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 723826809" size-unit="char" translate="yes" xml:space="preserve">
+          <source>requireReason must be true or false.</source>
+          <target>requireReason verður að vera true eða false.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=requireReason verður að vera true eða false.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType RequireReasonFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 2739270328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send requireReason as a JSON boolean, true or false.</source>
+          <target>Sendu requireReason sem JSON-sanngildi, true eða false.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu requireReason sem JSON-sanngildi, true eða false.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType RequireReasonNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 218489467" size-unit="char" translate="yes" xml:space="preserve">
+          <source>backgroundThreshold must be a whole number.</source>
+          <target>backgroundThreshold verður að vera heiltala.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=backgroundThreshold verður að vera heiltala.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType ThresholdFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 2673871294" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send a whole number of rows from 1 to 100000, for example 500.</source>
+          <target>Sendu heiltölu lína frá 1 til 100000, til dæmis 500.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu heiltölu lína frá 1 til 100000, til dæmis 500.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType ThresholdNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 2170229735" size-unit="char" translate="yes" xml:space="preserve">
+          <source>backgroundThreshold must be between %1 and %2.</source>
+          <target>backgroundThreshold verður að vera á bilinu %1 til %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = lowest allowed value, %2 = highest allowed value; is-IS=backgroundThreshold verður að vera á bilinu %1 til %2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType ThresholdRangeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 129330015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The dimension %1 does not exist.</source>
+          <target>Víddin %1 er ekki til.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = the dimension code that was sent; is-IS=Víddin %1 er ekki til.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType UnknownDimensionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1609844848 - NamedType 777459575" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use an existing dimension code from the Dimensions list (table Dimension), then send the whole list again. Nothing was changed.</source>
+          <target>Notaðu fyrirliggjandi víddarkóða úr víddalistanum (tafla Dimension) og sendu síðan allan listann aftur. Engu var breytt.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Notaðu fyrirliggjandi víddarkóða úr víddalistanum (tafla Dimension) og sendu síðan allan listann aftur. Engu var breytt.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Msg Mgt ori - NamedType UnknownDimensionNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3573601475 - Method 1027590672 - NamedType 1290244428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>change dimension correction setup, block dimensions, set background threshold, require reason for corrections</source>
+          <target>breyta uppsetningu víddaleiðréttinga, læsa víddum, stilla mörk bakgrunnsvinnslu, krefjast ástæðu fyrir leiðréttingu, víddir</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=breyta uppsetningu víddaleiðréttinga, læsa víddum, stilla mörk bakgrunnsvinnslu, krefjast ástæðu fyrir leiðréttingu, víddir</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Setup Set Impl ori - Method GetKeywords - NamedType KeywordsLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1706741566 - NamedType 2751956267" size-unit="char" translate="yes" xml:space="preserve">
           <source>postingDateFrom is after postingDateTo.</source>
           <target>postingDateFrom er á eftir postingDateTo.</target>
