@@ -3,6 +3,102 @@
   <file datatype="xml" source-language="en-US" target-language="is-IS" original="Bifrost Dimensions">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1706741566 - NamedType 2751956267" size-unit="char" translate="yes" xml:space="preserve">
+          <source>postingDateFrom is after postingDateTo.</source>
+          <target>postingDateFrom er á eftir postingDateTo.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=postingDateFrom er á eftir postingDateTo.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType DateRangeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 3611702312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send postingDateFrom on or before postingDateTo.</source>
+          <target>Sendu postingDateFrom sama dag eða á undan postingDateTo.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu postingDateFrom sama dag eða á undan postingDateTo.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType DateRangeNextStepLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 3569966352" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finds posted ledger entries and posted documents by document no., posting date, source and current dimensions. Read-only; use it to pick what to correct.</source>
+          <target>Finnur bókaðar færslur og bókuð skjöl eftir skjalanúmeri, bókunardagsetningu, uppruna og núverandi víddum. Les eingöngu; notað til að velja hvað á að leiðrétta.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Finnur bókaðar færslur og bókuð skjöl eftir skjalanúmeri, bókunardagsetningu, uppruna og núverandi víddum. Les eingöngu; notað til að velja hvað á að leiðrétta.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType DescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 1726001841" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use a dimension code from the Dimension list and send dimensions as an array of {code, value}; value "" means the dimension is missing.</source>
+          <target>Notaðu víddarkóða úr víddalistanum og sendu dimensions sem fylki af {code, value}; value "" þýðir að vídd vantar.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Notaðu víddarkóða úr víddalistanum og sendu dimensions sem fylki af {code, value}; value "" þýðir að vídd vantar.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType DimensionNextStepLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 3135237118" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension code %1 does not exist.</source>
+          <target>Víddarkóðinn %1 er ekki til.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code; is-IS=Víddarkóðinn %1 er ekki til.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType DimensionUnknownLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 2034244912" size-unit="char" translate="yes" xml:space="preserve">
+          <source>entryNos needs a target, a list of at most 1000 keys, and keys without filter characters.</source>
+          <target>entryNos þarf target, í mesta lagi 1000 lykla og lykla án síunartákna.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=entryNos þarf target, í mesta lagi 1000 lykla og lykla án síunartákna.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType EntryNosLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 3192141139" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send target together with entryNos, using the keys of that table.</source>
+          <target>Sendu target ásamt entryNos með lyklum þeirrar töflu.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu target ásamt entryNos með lyklum þeirrar töflu.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType EntryNosNextStepLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 2588563411" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 has the wrong type.</source>
+          <target>%1 er af röngu tagi.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = parameter name; is-IS=%1 er af röngu tagi.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType FormatLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 26043952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send text for text parameters, YYYY-MM-DD for dates, a whole number for maxRows and arrays for dimensions and entryNos.</source>
+          <target>Sendu texta fyrir textabreytur, ÁÁÁÁ-MM-DD fyrir dagsetningar, heiltölu fyrir maxRows og fylki fyrir dimensions og entryNos.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu texta fyrir textabreytur, ÁÁÁÁ-MM-DD fyrir dagsetningar, heiltölu fyrir maxRows og fylki fyrir dimensions og entryNos.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType FormatNextStepLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 1290244428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>dimensions, correct dimensions, dimension correction, posted entries, posted documents, find entries by dimension, dimension set</source>
+          <target>víddir, leiðrétta víddir, víddaleiðrétting, bókaðar færslur, bókuð skjöl, finna færslur eftir víddum, víddasett</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=víddir, leiðrétta víddir, víddaleiðrétting, bókaðar færslur, bókuð skjöl, finna færslur eftir víddum, víddasett</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType KeywordsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 3057431337" size-unit="char" translate="yes" xml:space="preserve">
+          <source>maxRows must be a whole number from 1 to 1000.</source>
+          <target>maxRows verður að vera heiltala frá 1 til 1000.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=maxRows verður að vera heiltala frá 1 til 1000.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType MaxRowsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 3290278190" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send maxRows between 1 and 1000, or omit it for 100.</source>
+          <target>Sendu maxRows á bilinu 1 til 1000, eða slepptu því fyrir 100.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu maxRows á bilinu 1 til 1000, eða slepptu því fyrir 100.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType MaxRowsNextStepLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 2344026547" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submit to POST /queues. Read-only: nothing is written. Without target, documentNo searches every supported table (header, lines and ledger entries). includeLines adds the document lines to a single document target. Row order follows the primary key of each table; truncated is true when more rows exist than maxRows.</source>
+          <target>Sent á POST /queues. Les eingöngu: engu er breytt. Án target leitar documentNo í öllum studdum töflum (haus, línur og færslur). includeLines bætir línum skjals við eitt skjalamarkmið. Röð fylgir aðallykli hverrar töflu; truncated er true þegar fleiri línur eru til en maxRows.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sent á POST /queues. Les eingöngu: engu er breytt. Án target leitar documentNo í öllum studdum töflum (haus, línur og færslur). includeLines bætir línum skjals við eitt skjalamarkmið. Röð fylgir aðallykli hverrar töflu; truncated er true þegar fleiri línur eru til en maxRows.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType NotesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 3423777841" size-unit="char" translate="yes" xml:space="preserve">
+          <source>target is missing. Send a registry name, or documentNo to search every table.</source>
+          <target>target vantar. Sendu heiti úr skránni, eða documentNo til að leita í öllum töflum.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=target vantar. Sendu heiti úr skránni, eða documentNo til að leita í öllum töflum.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType TargetMissingLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 2988089010" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send one of the valid target names exactly as listed.</source>
+          <target>Sendu eitt af gildu heitunum nákvæmlega eins og þau eru skráð.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu eitt af gildu heitunum nákvæmlega eins og þau eru skráð.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType TargetNextStepLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1706741566 - NamedType 3432237093" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The target is not a supported table. Valid targets: %1.</source>
+          <target>Markmiðið er ekki studd tafla. Gild markmið: %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = comma separated registry names; is-IS=Markmiðið er ekki studd tafla. Gild markmið: %1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimensions Find Impl ori - NamedType TargetUnknownLbl</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 2287228733 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bifrost Dimensions</source>
           <target>Bifröst - víddir</target>
