@@ -15,5 +15,7 @@ permissionset 10076488 "BIFROST DIMRead ori"
         table "Dimension Corr. Setup ori" = X,
         table "Dim. Corr. Blocked Dim. ori" = X,
         codeunit "Dim Setup Get Impl ori" = X,
-        codeunit "Dim Setup Msg Mgt ori" = X;
+        codeunit "Dim Setup Msg Mgt ori" = X,
+        codeunit "Dim Corr Preview Impl ori" = X,
+        codeunit "Dim Corr. Engine ori" = X;
 }

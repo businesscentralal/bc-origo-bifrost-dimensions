@@ -31,6 +31,10 @@ Tests: 98300-98399
 | Enum | 10076492 | Dim. Correction Target ori (interface of the same name) |
 | Codeunit | 10076493 | Dim Target Registry ori |
 | Codeunit | 10076494 | Dimensions Find Impl ori |
+| Codeunit | 10076500 | Dim Corr Preview Impl ori |
+| Codeunit | 10076501 | Dim Corr. Engine ori |
+| Enum value | 10076500 | Dimensions.Correction.Preview |
+| Test codeunit | 98330 | Dim Corr Preview Tst ori |
 | Test codeunit | 98300 | Dimensions Scaffold Tst ori |
 | Test codeunit | 98320 | Dim Setup Msg Tst ori |
 | Test permission set | 98301 | Dim Setup Test ori |
