@@ -57,6 +57,234 @@
           <note from="Developer" annotates="general" priority="2">is-IS=Krefjast ástæðu</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Dimension Corr. Setup ori - Field Require Reason - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 1917114355" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Each change needs code, action "set" or "remove", and a value when the action is set.</source>
+          <target>Hver breyting þarf code, action "set" eða "remove", og value ef action er set.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Hver breyting þarf code, action "set" eða "remove", og value ef action er set.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType ChangeItemLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 152790178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send {code, action: "set", value} to replace or add a value, or {code, action: "remove"} to delete the dimension.</source>
+          <target>Sendu {code, action: "set", value} til að skipta um eða bæta við gildi, eða {code, action: "remove"} til að eyða víddinni.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu {code, action: "set", value} til að skipta um eða bæta við gildi, eða {code, action: "remove"} til að eyða víddinni.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType ChangeItemNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 991095245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>changes is missing.</source>
+          <target>changes vantar.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=changes vantar.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType ChangesMissingLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 3010176156" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send changes as an array of {code, action: "set"|"remove", value}.</source>
+          <target>Sendu changes sem fylki af {code, action: "set"|"remove", value}.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu changes sem fylki af {code, action: "set"|"remove", value}.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType ChangesNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 3569966352" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previews a dimension correction on posted entries and documents: cascade, validation, new dimension sets and a preview token. Nothing is corrected.</source>
+          <target>Forskoðar víddaleiðréttingu á bókuðum færslum og skjölum: dreifingu, sannprófun, ný víddarsett og forskoðunarlykil. Engu er breytt.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Forskoðar víddaleiðréttingu á bókuðum færslum og skjölum: dreifingu, sannprófun, ný víddarsett og forskoðunarlykil. Engu er breytt.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType DescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 2588563411" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 has the wrong type.</source>
+          <target>%1 er af röngu tagi.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = parameter name; is-IS=%1 er af röngu tagi.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType FormatLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 4063910082" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send arrays for selection and changes, text for reason and a whole number for maxRows.</source>
+          <target>Sendu fylki fyrir selection og changes, texta fyrir reason og heiltölu fyrir maxRows.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu fylki fyrir selection og changes, texta fyrir reason og heiltölu fyrir maxRows.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType FormatNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 1290244428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>dimension correction preview, correct dimensions, change department, remove dimension, posted documents, validation, cascade, preview token</source>
+          <target>forskoðun víddaleiðréttingar, leiðrétta víddir, breyta deild, fjarlægja vídd, bókuð skjöl, sannprófun, dreifing, forskoðunarlykill, víddaleiðrétting</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=forskoðun víddaleiðréttingar, leiðrétta víddir, breyta deild, fjarlægja vídd, bókuð skjöl, sannprófun, dreifing, forskoðunarlykill, víddaleiðrétting</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType KeywordsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 3057431337" size-unit="char" translate="yes" xml:space="preserve">
+          <source>maxRows must be a whole number from 1 to 100000.</source>
+          <target>maxRows verður að vera heiltala frá 1 til 100000.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=maxRows verður að vera heiltala frá 1 til 100000.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType MaxRowsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 2812161756" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send maxRows between 1 and 100000, or omit it for 5000.</source>
+          <target>Sendu maxRows á bilinu 1 til 100000, eða slepptu því fyrir 5000.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu maxRows á bilinu 1 til 100000, eða slepptu því fyrir 5000.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType MaxRowsNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 2344026547" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submit to POST /queues. Nothing is corrected: only Dimension Set records may be created. A header selection cascades to its lines and, for a documentNo selection, to the ledger entries of that document, only where their dimension set equals the header's original set; others are skipped with reason "own dimensions". reason is required when the setup says so (Dimensions.Setup.Get). The previewToken is a hash of the selection, the changes and every row's Dimension Set ID and expires after 30 minutes; above maxRows (default 5000) the call is refused.</source>
+          <target>Sendist á POST /queues. Engu er leiðrétt: aðeins víddarsett geta orðið til. Val á hausi dreifist á línur hans og, við val á documentNo, á færslur skjalsins, aðeins þar sem víddarsettið er það sama og upprunalegt sett hauss; aðrar eru sniðgengnar með ástæðunni "own dimensions". reason er skylda ef uppsetningin krefst þess (Dimensions.Setup.Get). previewToken er hakk af valinu, breytingunum og víddarsetti hverrar línu og rennur út eftir 30 mínútur; yfir maxRows (sjálfgefið 5000) er kallinu hafnað.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendist á POST /queues. Engu er leiðrétt: aðeins víddarsett geta orðið til. Val á hausi dreifist á línur hans og, við val á documentNo, á færslur skjalsins, aðeins þar sem víddarsettið er það sama og upprunalegt sett hauss; aðrar eru sniðgengnar með ástæðunni "own dimensions". reason er skylda ef uppsetningin krefst þess (Dimensions.Setup.Get). previewToken er hakk af valinu, breytingunum og víddarsetti hverrar línu og rennur út eftir 30 mínútur; yfir maxRows (sjálfgefið 5000) er kallinu hafnað.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType NotesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 1427305926" size-unit="char" translate="yes" xml:space="preserve">
+          <source>reason is required by the dimension correction setup.</source>
+          <target>Uppsetning víddaleiðréttinga krefst reason.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Uppsetning víddaleiðréttinga krefst reason.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType ReasonMissingLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 3503653243" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send reason as text, or turn requireReason off with Dimensions.Setup.Set.</source>
+          <target>Sendu reason sem texta, eða slökktu á requireReason með Dimensions.Setup.Set.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu reason sem texta, eða slökktu á requireReason með Dimensions.Setup.Set.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType ReasonNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 232066697" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Each selection item needs target with entryNos, or documentNo; target must be a supported table.</source>
+          <target>Hvert val þarf target með entryNos, eða documentNo; target verður að vera studd tafla.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Hvert val þarf target með entryNos, eða documentNo; target verður að vera studd tafla.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType SelectionItemLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 1823385596" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send {target, entryNos} or {documentNo, target}, using the registry names from Dimensions.Entries.Find.</source>
+          <target>Sendu {target, entryNos} eða {documentNo, target} með heitum úr skránni í Dimensions.Entries.Find.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu {target, entryNos} eða {documentNo, target} með heitum úr skránni í Dimensions.Entries.Find.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType SelectionItemNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 2533078386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>selection is missing.</source>
+          <target>selection vantar.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=selection vantar.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType SelectionMissingLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 4175692615" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send selection as an array of {target, entryNos} and/or {documentNo, target}.</source>
+          <target>Sendu selection sem fylki af {target, entryNos} og/eða {documentNo, target}.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Sendu selection sem fylki af {target, entryNos} og/eða {documentNo, target}.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType SelectionNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 3432237093" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The target is not a supported table. Valid targets: %1.</source>
+          <target>Markmiðið er ekki studd tafla. Gild markmið: %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = comma separated registry names; is-IS=Markmiðið er ekki studd tafla. Gild markmið: %1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType TargetUnknownLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 561129367" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selection has more than %1 rows.</source>
+          <target>Valið inniheldur fleiri en %1 línur.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = maxRows; is-IS=Valið inniheldur fleiri en %1 línur.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType TooManyLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 234602278 - NamedType 891934670" size-unit="char" translate="yes" xml:space="preserve">
+          <source>narrow the selection</source>
+          <target>þrengdu valið</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=þrengdu valið</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr Preview Impl ori - NamedType TooManyNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 2483530765" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The new dimension set breaks the dimension combination rules: %1</source>
+          <target>Nýja víddarsettið brýtur reglur um víddasamsetningar: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = the combination error; is-IS=Nýja víddarsettið brýtur reglur um víddasamsetningar: %1</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType CombinationLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 1600565112" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change the dimension values so the combination is allowed, or change the rules under Dimension Combinations.</source>
+          <target>Breyttu víddargildunum þannig að samsetningin sé leyfð, eða breyttu reglunum í víddasamsetningum.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Breyttu víddargildunum þannig að samsetningin sé leyfð, eða breyttu reglunum í víddasamsetningum.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType CombinationNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 237210832" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension %1 is on the dimension correction blocked list (%2).</source>
+          <target>Víddin %1 er á læstum lista víddaleiðréttinga (%2).</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code, %2 = bifrost or microsoft; is-IS=Víddin %1 er á læstum lista víddaleiðréttinga (%2).</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType CorrectionBlockedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 489967877" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove the dimension from the blocked list with Dimensions.Setup.Set (Bifrost list) or in Microsoft's Dimension Correction setup, or leave it out of the changes.</source>
+          <target>Fjarlægðu víddina af læsta listanum með Dimensions.Setup.Set (Bifröst-listi) eða í uppsetningu Microsoft víddaleiðréttinga, eða slepptu henni úr breytingunum.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Fjarlægðu víddina af læsta listanum með Dimensions.Setup.Set (Bifröst-listi) eða í uppsetningu Microsoft víddaleiðréttinga, eða slepptu henni úr breytingunum.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType CorrectionBlockedNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 2498076358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension %1 is blocked.</source>
+          <target>Víddin %1 er læst.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code; is-IS=Víddin %1 er læst.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType DimensionBlockedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 370966575" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unblock the dimension, or leave it out of the changes.</source>
+          <target>Opnaðu víddina eða slepptu henni úr breytingunum.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Opnaðu víddina eða slepptu henni úr breytingunum.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType DimensionBlockedNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 3135237118" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension code %1 does not exist.</source>
+          <target>Víddarkóðinn %1 er ekki til.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code; is-IS=Víddarkóðinn %1 er ekki til.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType DimensionUnknownLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 4122826183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use a code from the Dimensions list.</source>
+          <target>Notaðu kóða úr víddalistanum.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Notaðu kóða úr víddalistanum.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType DimensionUnknownNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 3844472375" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension %1 must have a value (Code Mandatory) for %2.</source>
+          <target>Víddin %1 verður að hafa gildi (Kóði skylda) fyrir %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code, %2 = source no.; is-IS=Víddin %1 verður að hafa gildi (Kóði skylda) fyrir %2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType MandatoryLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 4246844650" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension %1 must not have a value (No Code) for %2.</source>
+          <target>Víddin %1 má ekki hafa gildi (Enginn kóði) fyrir %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code, %2 = source no.; is-IS=Víddin %1 má ekki hafa gildi (Enginn kóði) fyrir %2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType NoCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 2233429183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension %1 must have the value %3 (Same Code) for %2.</source>
+          <target>Víddin %1 verður að hafa gildið %3 (Sami kóði) fyrir %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code, %2 = source no., %3 = required value; is-IS=Víddin %1 verður að hafa gildið %3 (Sami kóði) fyrir %2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType SameCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 3183948835" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value %2 of dimension %1 is blocked.</source>
+          <target>Gildið %2 í víddinni %1 er læst.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code, %2 = value; is-IS=Gildið %2 í víddinni %1 er læst.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType ValueBlockedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 1854636562" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unblock the dimension value, or use another value.</source>
+          <target>Opnaðu víddargildið eða notaðu annað gildi.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Opnaðu víddargildið eða notaðu annað gildi.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType ValueBlockedNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 2559730714" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Follow the default dimension Value Posting rule of the account or source, or change that rule.</source>
+          <target>Fylgdu gildisbókunarreglu sjálfgefinnar víddar reikningsins eða uppruna, eða breyttu reglunni.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Fylgdu gildisbókunarreglu sjálfgefinnar víddar reikningsins eða uppruna, eða breyttu reglunni.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType ValuePostingNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 3516260163" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value %2 of dimension %1 is not a standard value and cannot be posted to.</source>
+          <target>Gildið %2 í víddinni %1 er ekki venjulegt gildi og ekki hægt að bóka á það.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code, %2 = value; is-IS=Gildið %2 í víddinni %1 er ekki venjulegt gildi og ekki hægt að bóka á það.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType ValueTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 1194561010" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use a dimension value of type Standard.</source>
+          <target>Notaðu víddargildi af gerðinni Venjulegt.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Notaðu víddargildi af gerðinni Venjulegt.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType ValueTypeNextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 1949166395" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value %2 does not exist for dimension %1.</source>
+          <target>Gildið %2 er ekki til fyrir víddina %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = dimension code, %2 = value; is-IS=Gildið %2 er ekki til fyrir víddina %1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType ValueUnknownLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 390213292 - NamedType 3946523690" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use a value code from the dimension value list of that dimension.</source>
+          <target>Notaðu gildiskóða úr víddargildum þeirrar víddar.</target>
+          <note from="Developer" annotates="general" priority="2">is-IS=Notaðu gildiskóða úr víddargildum þeirrar víddar.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dim Corr. Engine ori - NamedType ValueUnknownNextLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2226477007 - Method 1027590672 - NamedType 1290244428" size-unit="char" translate="yes" xml:space="preserve">
           <source>dimension correction setup, read dimension settings, blocked dimensions, background threshold, require reason</source>
           <target>uppsetning víddaleiðréttinga, lesa víddastillingar, læstar víddir, mörk bakgrunnsvinnslu, krefjast ástæðu, víddir, leiðrétta víddir</target>

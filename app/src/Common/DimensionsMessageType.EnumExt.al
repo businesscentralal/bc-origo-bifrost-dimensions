@@ -25,4 +25,10 @@ enumextension 10076491 "Dimensions Message Type ori" extends "Message Type ori"
         Caption = 'Dimensions.Entries.Find', Locked = true;
         Implementation = "Msg Interface ori" = "Dimensions Find Impl ori", "Msg Discovery ori" = "Dimensions Find Impl ori", "Msg Contract ori" = "Dimensions Find Impl ori";
     }
+    /// <summary>Previews a dimension correction: cascade, validation, new dimension sets and a preview token. Nothing is corrected.</summary>
+    value(10076500; "Dimensions.Correction.Preview")
+    {
+        Caption = 'Dimensions.Correction.Preview', Locked = true;
+        Implementation = "Msg Interface ori" = "Dim Corr Preview Impl ori", "Msg Discovery ori" = "Dim Corr Preview Impl ori", "Msg Contract ori" = "Dim Corr Preview Impl ori";
+    }
 }

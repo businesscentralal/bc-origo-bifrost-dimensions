@@ -20,6 +20,7 @@ permissionset 98301 "Dim Setup Test ori"
         codeunit "Dimensions Scaffold Tst ori" = X,
         codeunit "Dim Entries Find Tst ori" = X,
         codeunit "Dim Setup Msg Tst ori" = X,
+        codeunit "Dim Corr Preview Tst ori" = X,
         codeunit "Library Assert" = X,
         codeunit "Library - Lower Permissions" = X,
         codeunit "Permissions Mock" = X;
